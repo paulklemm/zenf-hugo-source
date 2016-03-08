@@ -1,3 +1,42 @@
 baseurl = "http://paulklemm.com/zenf-hugo/"
 languageCode = "en-us"
 title = "Zenf"
+theme = "hugo-cactus-theme-zenf"
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "Zenf"
+
+[params]
+	name = "Paul Klemm"
+	title = "Zenf"
+	description = "Paul puts in his two cents"
+	bio = "Paul puts in his two cents"
+	# Enter optionally your twitter account
+	twitter = "www.twitter.com/paul_klemm"
+	enableRSS = true
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	#subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "Paul is a data scientist with focus on visualization"
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+    # Social icons style - circle, rounded, or empty
+    socialIconStyle = ""
+
+[social]
+    twitter  = "https://www.twitter.com/paul_klemm"
+    github   = "https://www.github.com/paulklemm"
