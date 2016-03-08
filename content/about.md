@@ -2,7 +2,6 @@
 date = "2016-03-06T20:16:04+01:00"
 draft = false
 title = "about"
-
 +++
 
 # Hi! I'm Paul.
