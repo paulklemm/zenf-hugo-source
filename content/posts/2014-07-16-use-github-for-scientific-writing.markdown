@@ -1,5 +1,8 @@
 ---
-categories: GIT GITHUB Scientific-Writing
+categories:
+- GIT
+- GITHUB
+- Scientific-Writing
 comments: true
 date: 2014-07-16T16:36:35Z
 published: true
@@ -10,7 +13,7 @@ url: /2014-07-16-use-github-for-scientific-writing/
 *`GIT` is a very good tool to manage scientific writing, either if you write it on your own or with collaborators. The rich set of tools supporting collaborative work makes [Github](https://github.com/) a good place for storing all information there.*
 
 ----
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/gitlab.png##floatright200" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/gitlab.png##floatright200" >}}
 
 There are many reasons why I adore `github`! For me, it stands for all the good things associated with open content -- the beautiful mindset behind it where many people participate to create amazing things! Openness, which is still largely missing in scientific research.
 
@@ -34,16 +37,16 @@ In this blog post I show how to set up a git repository for a scientific paper, 
 
 ### Creating the New Repository
 
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/createNewRepo.png#floatright200" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/createNewRepo.png#floatright200" >}}
 
 Creating a new repository at Github is easy as pie. When you are logged in, you can use the toolbar at the top right corner to create a new repository.
 
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/init.png" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/init.png" >}}
 
 In the next window you can create your new repository. Give it a meaningful title and make sure to select the `TeX` `.gitignore` template at the bottom. If you want to create a *private repository*, you can request it using this link: [https://education.github.com/](https://education.github.com/). The people at Github are pretty fast, it took them only a few hours to verify my account.
 
 After you've created the repository it should look similar to this:
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/init-2.png" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/init-2.png" >}}
 
 ### Add your Files to the Repository
 
@@ -70,7 +73,7 @@ Now you should have the repository on your desktop. You can add all existing fil
 
 Here is an example for doing this:
 
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/folder.png#floatright200" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/folder.png#floatright200" >}}
 
 {{< highlight bash >}}
 # You can use any folder you want!
@@ -132,9 +135,9 @@ When working with versioning systems, it is recommended to [commit early and oft
 Updating the repository is straightforward, just run `git add <your File>`, create a `git commit` and `git push` it to the server. If you just want to update all files in the repository, you can use `git commit -a` instead of tediously `git add`'ing all changed files.
 
 All commits can be viewed at your projects `github` page.
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/commits.png" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/commits.png" >}}
 Here you can see the changes made to the repository in every commit. Each line can also be commented to trigger a discussion or give feedback! These views are called *DIFFs*.
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/diff.png#300" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/diff.png#300" >}}
 
 ### Structure your `LaTeX` Documents
 
@@ -165,7 +168,7 @@ Changes made to Tex files structured like this are well readable using the githu
 {{< /highlight >}}
 
 ### Use the Social Features!
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/discussion.png#floatright300" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/discussion.png#floatright300" >}}
 Having all authors of a scientific paper in one place is rare. Exchange of ideas and feedback via email is tedious. The build in [`Wiki`](https://help.github.com/articles/about-github-wikis) for each repository is a great way for collecting and summarizing ideas. Even in public repositories you can restrict access to the wiki to collaborators only if you want to keep it more private.
 
 The `issue` and `milestone` system is packed with useful features for discussing the current process of the work. Discussions can even be referenced to commits. All information is kept at one place, communication is synchronized and you don't need to look up old mails with chunks of information any more!
@@ -173,7 +176,7 @@ The `issue` and `milestone` system is packed with useful features for discussing
 ### Use Branches
 Say you want to write a new section, but it will take a couple of days. At the same time, you do not want to change the repository all the time, forcing your co-authors to `git pull` every time they also want to edit the paper. `GIT` was designed with such cases in mind! You can simply create your own sub-repository, called a `branch`, edit it and merge it together with the master-branch.
 
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/branch.png#floatright200" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/branch.png#floatright200" >}}
 {{< highlight bash >}}
 # Create new 'my-section' branch
 $ git branch my-section
@@ -205,7 +208,7 @@ $ git push
 {{< /highlight >}}
 
 ### Create Releases
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/releases.png#floatright300" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/releases.png#floatright300" >}}
 `Releases` are a great feature to freeze commits. I use it to save important milestones, such as the blind submission for reviewing.
 
 ### Use All the Features!
@@ -220,4 +223,4 @@ Since I feel that openness plays a crucial role in scientific research, we do go
 
 ## Encore
 This is what reviewing revisions can look like if your co-authors use this workflow. I find this pretty awesome 💙.
-{{< figure src="/zenf-hugo/media/2014-07-16-use-github-for-scientific-writing/comparison.gif" >}}
+{{< figure src="/zenf/media/2014-07-16-use-github-for-scientific-writing/comparison.gif" >}}

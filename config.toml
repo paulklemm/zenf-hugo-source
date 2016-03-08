@@ -1,4 +1,4 @@
-baseurl = "http://paulklemm.com/zenf-hugo/"
+baseurl = "http://paulklemm.com/zenf/"
 languageCode = "en-us"
 title = "Zenf"
 theme = "hugo-cactus-theme-zenf"
@@ -11,7 +11,7 @@ disqusShortname = "Zenf"
 	description = "Paul puts in his two cents"
 	bio = "Paul puts in his two cents"
 	# Enter optionally your twitter account
-	twitter = "www.twitter.com/paul_klemm"
+	twitter = "paul_klemm"
 	enableRSS = true
 
 	# The variables below are optionally too and can be used to
@@ -20,7 +20,7 @@ disqusShortname = "Zenf"
 	# Navigation links
 	home = ""
 	about = ""
-	#subscribe = ""
+	subscribe = ""
 	# Pagination links
 	olderPosts = ""
 	newerPosts = ""
@@ -35,7 +35,7 @@ disqusShortname = "Zenf"
 	subtitle404 = ""
 
     # Social icons style - circle, rounded, or empty
-    socialIconStyle = ""
+    socialIconStyle = "circle"
 
 [social]
     twitter  = "https://www.twitter.com/paul_klemm"

@@ -6,13 +6,15 @@ title: Watch LaTeX Documents using Latexmk
 url: /2016-03-06-watch-latex-documents-using-latexmk/
 ---
 
-*tl,dr:* The `Watch Document` functionality of Textmate automatically compiles Tex documents when saved. This post describes how to achieve this behavior with any editor. It works for Unix-based systems, such as OSX or Linux. An example repository can be found [here](https://github.com/paulklemm/latexmk-synctex-example).
+*The `Watch Document` functionality of Textmate automatically compiles Tex documents when saved. This post describes how to achieve this behavior with any editor. It works for Unix-based systems, such as OSX or Linux. An example repository can be found [here](https://github.com/paulklemm/latexmk-synctex-example).*
+
+---
 
 ## Introduction: Switch from Textmate
 
 I've been using Textmate to write and compile my LaTeX Documents since 2007. [This Blog post](http://jann.is/daily/archives/756-LaTex-Live-PDF-preview-with-TextMate-and-PDFView.html) by Jannis Hermanns basically defined my workflow since then. It's core is the neat `Watch Document` feature of Textmate, which compiles the document and looks for changes. It recompiles the document as soon as it is saved.
 
-{{< figure src="/zenf-hugo/media/2016-03-06-watch-latex-documents-using-latexmk/textmate_watch_document.gif" title="The watch document command of Textmate previews changes when saving the document" >}}
+{{< figure src="/zenf/media/2016-03-06-watch-latex-documents-using-latexmk/textmate_watch_document.gif" title="The watch document command of Textmate previews changes when saving the document" >}}
 
 This also works with LaTeX projects consisting of multiple files. Simply put the watch on the project master file and it will also look for changes in the associated files. This even extends to included images.
 
@@ -60,7 +62,7 @@ latexmk -quiet -bibtex -pvc -f -pdf -pdflatex="pdflatex -synctex=1 -interaction=
 
 This is exactly the behavior I was looking for. And as a big plus, it is independent of your editor choice. Using it with [Sublime Text](https://www.sublimetext.com/) and the [LaTeXTools Plugin](https://www.sublimetext.com/) along with a Skim even allows to jump between source and compiled PDF using the enabled `synctex` feature.
 
-{{< figure src="/zenf-hugo/media/2016-03-06-watch-latex-documents-using-latexmk/synctex_sublime_skim.gif" title="Jump between the IDE (Sublime Text 3 with LatexTools) and the PDF Viewer (Skim) using the Synctex feature" >}}
+{{< figure src="/zenf/media/2016-03-06-watch-latex-documents-using-latexmk/synctex_sublime_skim.gif" title="Jump between the IDE (Sublime Text 3 with LatexTools) and the PDF Viewer (Skim) using the Synctex feature" >}}
 
 ## Use the Power of `make` with `latexmk`
 

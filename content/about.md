@@ -1,17 +1,12 @@
 +++
 date = "2016-03-06T20:16:04+01:00"
-draft = true
+draft = false
 title = "about"
 
 +++
 
-## My Headline.
+# Hi! I'm Paul.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I'm a PhD student at the computer science faculty of the University of Magdeburg. I develop visual analytics methods, which combine statistics and visual analysis. The goal is to derive insight into large scale data sets.
 
-And this is some more text.
+I write about day to day tech-problems I encounter as well good practices for certain bits of technology. Hopefully it will benefit you.

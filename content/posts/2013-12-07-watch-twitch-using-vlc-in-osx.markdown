@@ -62,7 +62,7 @@ livestreamer http://www.twitch.tv/wcs_europe [quality]
 Here, `[quality]` has to be a quality setting from the stream, usually ranging between `low`, `medium`, `high` and `source`. If you leave it empty, `livestreamer` will tell you, which options you can choose from. Setting the parameter to `best` tells `livestreamer` to use the highest quality available.
 
 Et voilá. Enjoy your stream.
-{{< figure src="/zenf-hugo/media/2013-12-07-watch-twitch-using-vlc-in-osx/twitch-vlc-sc2_small.png" >}}
+{{< figure src="/zenf/media/2013-12-07-watch-twitch-using-vlc-in-osx/twitch-vlc-sc2_small.png" >}}
 
 Update Livestreamer
 -------------------
