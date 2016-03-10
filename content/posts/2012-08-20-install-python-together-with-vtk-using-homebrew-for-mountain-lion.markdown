@@ -94,9 +94,9 @@ This part is oriented on the introduction on how to include the `DRE` into `Ecli
 <iframe width="420" height="315" src="https://www.youtube.com/embed/-b1zS536R2M" frameborder="0" allowfullscreen></iframe>
 
 To use `Python` together with `Eclipse` you have to install the *Classic* Version from [the official homepage](http://www.eclipse.org/downloads/). Next, [install PyDev into Eclipse](http://pydev.org/manual_101_install.html). Now you need to tell `Eclipse` which `Python` installation it should use. This can be done in `Eclipse → Settings → Pydev → Interpreter-Python → New`. In the next Dialog you have to add Path to the Homebrew `Python`.
-{{< figure src="/zenf/media/2012-08-20-install-python-together-with-vtk-using-homebrew-for-mountain-lion/selectPythonInterpreter.png" >}}
+{{< figure src="/blog/media/2012-08-20-install-python-together-with-vtk-using-homebrew-for-mountain-lion/selectPythonInterpreter.png" >}}
 Confirm the next Prompt which should look like the following screenshot and you are done.
-{{< figure src="/zenf/media/2012-08-20-install-python-together-with-vtk-using-homebrew-for-mountain-lion/selectPythonPackages.png" >}}
+{{< figure src="/blog/media/2012-08-20-install-python-together-with-vtk-using-homebrew-for-mountain-lion/selectPythonPackages.png" >}}
 
 Now you are good to go. Create a new PyDev Project, select the new created interpreter and play around with `VTK` - it all should be working with auto completion and the other neat `Eclipse` features. The Code example Charl used in the Screencast should compile:
 {{< highlight python >}}
