@@ -10,7 +10,7 @@ title: Use Github for Scientific Writing
 url: /2014-07-16-use-github-for-scientific-writing/
 ---
 
-*`GIT` is a very good tool to manage scientific writing, either if you write it on your own or with collaborators. The rich set of tools supporting collaborative work makes [Github](https://github.com/) a good place for storing all information there.*
+*`GIT` is a good tool for managing scientific writing, whether you write on your own or with collaborators. A rich set of tools for supporting collaborative work makes [Github](https://github.com/) a good place for storing LaTeX source there.*
 
 ----
 {{< figure src="/blog/media/2014-07-16-use-github-for-scientific-writing/gitlab.png##floatright200" >}}
