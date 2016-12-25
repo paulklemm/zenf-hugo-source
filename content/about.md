@@ -6,6 +6,6 @@ title = "about"
 
 # Hi! I'm Paul.
 
-I'm a PhD student at the computer science faculty of the University of Magdeburg. I develop visual analytics methods, which combine statistics and visual analysis. The goal is to derive insight into large scale data sets.
+I'm a Postdoc at the Max-Planck-Institute for Metabolism Research in Cologne. I develop visual analytics methods, which combine statistics and visual analysis. I want to derive insight into large scale data sets.
 
-I write about day to day tech-problems I encounter as well good practices for certain bits of technology. Hopefully it will benefit you.
+I write about day to day tech-problems as well good practices. Hopefully it will benefit you.
