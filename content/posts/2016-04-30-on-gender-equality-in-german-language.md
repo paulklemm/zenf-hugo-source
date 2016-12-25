@@ -2,6 +2,7 @@
 date: "2016-04-30T10:22:31+02:00"
 description: ""
 title: "Zu Problemen der feministischen Linguistik"
+draft: true
 url: /2016-04-30-on-gender-equality-in-german-language/
 ---
 
