@@ -1,9 +1,9 @@
 ---
-date: "2016-12-25T15:51:49+01:00"
+date: "2017-01-03T15:00:00+01:00"
 description: ""
 title: "How to Puzzle Biologists in Your Talk"
 draft: true
-url: /2016-12-25-how-to-make-sure-biologists-get-nothing-from-your-talk/
+url: /2017-01-03-how_to_puzzle_biologists_in_your_talk/
 ---
 
 *An incomplete how-to on casting confusion and frustration on your audience.*
@@ -20,11 +20,13 @@ Here I summarize observations on how to efficiently disconnect biologists from y
 - Go into details of said algorithms, especially on how they they perform
 - Do *not* spare on memory usage information
 - Tell people in which language tools are written in (Biologists are very religious with programming languages)
-- Everybody should use `<insert_random_programming_language_here>`
+- Everybody should use `<insert random programming language here>`
 - Jump a lot between analysis steps and make them as abstract as possible
-- Examples are to avoid, they benefit only beginners and the stupid
+- Avoid examples, they benefit only beginners and the stupid
 - Scare people from programming on their own because of all the things they can do wrong
 - Jump between problems quickly
 - Try not to make yourself obsolete
 
-When you craft the talk, always ask yourself: *How can I widen the gap between the sciences and how can I disconnect myself from the audiences reality*
+When you craft the talk, always ask yourself: *How can I widen the gap between the sciences and how can I disconnect myself from the audiences reality*.
+
+Feel free to add suggestions in the comments.
