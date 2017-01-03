@@ -2,7 +2,7 @@
 date: "2017-01-03T15:00:00+01:00"
 description: ""
 title: "How to Puzzle Biologists in Your Talk"
-draft: true
+draft: false
 url: /2017-01-03-how_to_puzzle_biologists_in_your_talk/
 ---
 
