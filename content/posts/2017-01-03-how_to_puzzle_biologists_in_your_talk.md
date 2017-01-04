@@ -6,7 +6,7 @@ draft: false
 url: /2017-01-03-how_to_puzzle_biologists_in_your_talk/
 ---
 
-*A incomplete how-to on casting confusion and frustration on your audience.*
+*An incomplete how-to on casting confusion and frustration on your audience.*
 
 Sympathy and empathy between computer scientists and biologists cracks down the wall between the disciplines. Still, many talks celebrate the differences and are another brick in said wall.
 
