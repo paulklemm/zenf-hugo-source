@@ -3,9 +3,15 @@ categories: RStudio R OSX
 comments: true
 date: 2015-02-20T14:30:10Z
 published: true
-title: Run rJava with RStudio under OSX 10.10
+title: Run rJava with RStudio using OSX 10.10
 url: /2015-02-20-run-rjava-with-rstudio-under-osx-10-dot-10/
 ---
+
+# Update 2017-02-12: Newer fix available
+
+The workaround described in this post seized working for newer version of `rJava` and `RStudio`. I wrote a new blog post using [Toontje's](https://disqus.com/by/disqus_yW0scDAhvn/) fix here: [Load rJava in RStudio using macOS 10.12](http://paulklemm.com/blog/2017-02-12-fix-onload-failed-rjava-macos/).
+
+The post below refers to older version of `rJava`, `RStudio` and `macOS`.
 
 # The Problem
 
