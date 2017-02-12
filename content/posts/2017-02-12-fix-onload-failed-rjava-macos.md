@@ -8,9 +8,9 @@ draft: false
 url: /2017-02-12-fix-onload-failed-rjava-macos/
 ---
 
-This post describes a fix of the `.onLoad failed in loadNamespace() for 'rJava'` error, which occurs when loading `rJava` in `RStudio` using `macOS`.
+This post describes a fix of the `.onLoad failed in loadNamespace() for 'rJava'` error, which occurs when loading `rJava` in `RStudio` using `macOS`. Credit for this fix goes to [Toontje](https://disqus.com/by/disqus_yW0scDAhvn/).
 
-# The '2015' workaround stopped working
+# The '2015' fix stopped working
 
 In beginning of [2015 I wrote a blog post that shows you how to run `rJava` in `RStudio` using `OSX 10.10`](http://paulklemm.com/blog/2015-02-20-run-rjava-with-rstudio-under-osx-10-dot-10/). The fix stopped working. [Toontje](https://disqus.com/by/disqus_yW0scDAhvn/), a reader of my blog, came for the rescue.
 
