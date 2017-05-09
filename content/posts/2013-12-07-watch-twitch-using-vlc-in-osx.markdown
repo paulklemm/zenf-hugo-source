@@ -9,7 +9,7 @@ categories:
 - rtmpdump
 comments: true
 date: 2013-12-07T00:20:42Z
-title: Watch Twitch using VLC in OS X
+title: Watch Twitch using VLC in macOS
 url: /2013-12-07-watch-twitch-using-vlc-in-osx/
 ---
 
@@ -19,6 +19,16 @@ A tool called `livestreamer` can be used to bring Twitch streams to the beloved 
 
 *Twitch will not be able to stream ads if you use this solution.* 
 *Please be fair and subscribe to channels you like and you support.*
+
+**[Update 2017-05-09] Streamlink as replacement for abandoned Livestreamer**
+
+The authors of [Livestreamer](https://github.com/chrippa/livestreamer) abandoned the project. I recommend you use a fork of Livestreamer called [Streamlink](https://streamlink.github.io/).
+
+You install it via `pip`:
+
+{{< highlight bash >}}
+pip install streamlink
+{{< /highlight >}}
 
 **[Update 2014-02-20]**
 
